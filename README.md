@@ -4,4 +4,4 @@
 
     npm install
     npm start
-    npm deploy
+    npm run deploy
