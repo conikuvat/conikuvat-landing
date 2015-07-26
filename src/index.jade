@@ -1,8 +1,22 @@
 doctype html
 html
   head
-    title Gulp template
+    title Conikuvat.fi &ndash; Kuvia Suomen conitapahtumista
+    meta(name='keywords', content='Conikuvat, valokuvaus, valokuvat, kuvat, con, coni, animetapahtuma, roolipelitapahtuma, Tracon, Ropecon, Desucon, Animecon, Yukicon, Mimicon, Cosvision')
+    meta(name='description', content='Conikuvat.fi on suomalaisten valokuvauksen harrastajien yhteisö, jonka jäsenet valokuvaavat Suomessa järjestettäviä kulttuuri-, harraste- ja nuorisotapahtumia.')
     link(rel='stylesheet', href='css/style.css')
+    script(src='js/bundle.js', defer)
   body
-    h1 Hello world!
-    script(src='js/bundle.js')
+    .container
+      .text-center
+        img(src='assets/conikuvat.png')
+      .row
+        .col-md-offset-2.col-md-4
+          .panel.panel-default
+            .panel-heading: strong Uusi-kuiva
+            .panel-body Foo
+        .col-md-4
+          .panel.panel-default
+            .panel-heading: strong Desugaltsu
+            .panel-body Foo
+      p.text-muted.small.text-center Conikuvat.fi:tä rakkaudella tukevat Säätöyhteisö B2 ry, Tietovelhot Oy, Tracon ry ja Kehittyvien conien Suomi ry
