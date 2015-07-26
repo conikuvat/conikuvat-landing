@@ -46,7 +46,7 @@ var config = {
   assets: {
     source: './src/assets/**/*.*',
     watch: './src/assets/**/*.*',
-    destination: './public/'
+    destination: './public/assets/'
   },
   revision: {
     source: ['./public/**/*.css', './public/**/*.js'],
