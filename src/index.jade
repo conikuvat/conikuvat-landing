@@ -10,9 +10,7 @@ html
     .container
       .row.lebensraum
         .col-md-offset-2.col-md-8
-          .panel.panel-default
-            .panel-heading: strong Iso conikuvat.fi-logo
-            .panel-body I Am Placeholder
+          img(src='assets/conikuvat-cu.svg', style='width: 100%', alt='Conikuvat.fi')
       .row
         .col-md-offset-2.col-md-8
           p
@@ -21,16 +19,17 @@ html
           p
             | Uusi Conikuvat.fi-sivusto avataan vuoden 2016 aikana. Siihen asti löydät
             | conikuvaajien kuvat Anikin kuva-arkistosta ja Desugalleriasta:
-      .row.lebensraum
-        .col-md-offset-2.col-md-5
-          a(href='http://uusi.kuvat.aniki.fi', target='_blank')
-            img(src='assets/aniki-kuva-200x91.png', style='width: 100%')
-        .col-md-3
-          a(href='https://desucon.fi/galleria', target='_blank')
-            //-img(src='assets/desugalleria_logo_vaaka.svg', style='width: 100%')
-            img(src='assets/desugalleria_logo.svg', style='width: 100%')
-      p.text-muted.small.text-center
-        | Conikuvat.fi:tä rakkaudella tukevat <a href='http://b2.fi' target='_blank'>Säätöyhteisö
-        | B2 ry</a>, <a href='http://tietovelhot.fi' target='_blank'>Tietovelhot Oy</a>, <a
-        | href='http://tracon.fi' target='_blank'>Tracon ry</a> ja <a href='https://desucon.fi'
-        | target='_blank'>Kehittyvien conien Suomi ry</a>.
+      .row
+        .col-md-offset-2.col-md-5.lebensraum
+          a(href='http://uusi.kuvat.aniki.fi', target='_blank', title='Anikin uusi kuva-arkisto')
+            img(src='assets/aniki-kuva-200x91.png', style='width: 100%', alt='Anikin uusi kuva-arkisto')
+        .col-md-3.lebensraum
+          a(href='https://desucon.fi/galleria', target='_blank', title='Desugalleria')
+            img(src='assets/desugalleria_logo.svg', style='width: 100%', alt='Desugalleria')
+      .row
+        .col-md-offset-2.col-md-8
+          p.text-muted.small.text-center
+            | Conikuvat.fi:tä rakkaudella tukevat <a href='http://b2.fi' target='_blank'>Säätöyhteisö
+            | B2 ry</a>, <a href='http://tietovelhot.fi' target='_blank'>Tietovelhot Oy</a>, <a
+            | href='http://tracon.fi' target='_blank'>Tracon ry</a> ja <a href='https://desucon.fi'
+            | target='_blank'>Kehittyvien conien Suomi ry</a>.
