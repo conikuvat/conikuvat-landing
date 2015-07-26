@@ -1,5 +1,19 @@
+Assets under src/assets
+=======================
+
+Desucon and Desugalleria are trademarks of Kehittyvien conien Suomi ry.
+The Desucon and Desugalleria logos are Copyright (c) 2009-2015 Kehittyvien
+conien Suomi ry. All rights reserved.
+
+The Aniki Kuva-arkisto logo is Copyright (c) Säätöyhteisö B2 ry. All rights
+reserved.
+
+HTML and code
+=============
+
 The MIT License (MIT)
 
+Copyright (c) 2015 Santtu Pajukanta
 Copyright (c) 2015 Riku Rouvila
 
 Permission is hereby granted, free of charge, to any person obtaining a copy

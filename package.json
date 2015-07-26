@@ -1,21 +1,19 @@
 {
-  "name": "gulp-template",
-  "version": "1.0.0",
-  "description": "Project template for gulp.js",
-  "author": "Riku Rouvila <riku.rouvila@leonidasoy.fi>",
+  "name": "conikuvat-landing",
+  "version": "0.0.1",
+  "description": "Conikuvat.fi landing page",
+  "author": "Santtu Pajukanta",
   "license": "MIT",
   "main": "gulpfile.js",
+  "private": true,
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/japsu/conikuvat-landing.git"
+  },
   "scripts": {
     "start": "gulp",
     "build": "gulp build",
-    "test": "mocha src/**/__tests__/*.js --compilers js:babel/register --require test/test-helper"
-  },
-  "keywords": [
-    "gulp",
-    "template"
-  ],
-  "dependencies": {
-    "lodash": "^3.9.1"
+    "deploy": "NODE_ENV=production gulp build && gulp deploy"
   },
   "devDependencies": {
     "babel": "^5.6.14",
@@ -37,6 +35,7 @@
     "gulp-uglify": "~1.0.1",
     "gulp-util": "~3.0.1",
     "jsdom": "^5.6.0",
+    "lodash": "^3.9.1",
     "mocha": "^2.2.5",
     "node-notifier": "^4.2.1",
     "rimraf": "^2.3.4",
