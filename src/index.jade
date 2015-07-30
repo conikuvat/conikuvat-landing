@@ -4,11 +4,12 @@ html
     title Conikuvat.fi &ndash; Kuvia Suomen conitapahtumista
     meta(name='keywords', content='Conikuvat, valokuvaus, valokuvat, kuvat, con, coni, animetapahtuma, roolipelitapahtuma, Tracon, Ropecon, Desucon, Animecon, Yukicon, Mimicon, Cosvision')
     meta(name='description', content='Conikuvat.fi on valokuvauksen harrastajien yhteisö, jonka jäsenet valokuvaavat Suomessa järjestettäviä kulttuuri-, harraste- ja nuorisotapahtumia.')
+    link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Lato:400,700')
     link(rel='stylesheet', href='css/style.css')
     script(src='js/bundle.js', defer)
   body
     .container
-      .row.lebensraum
+      .row.ck-slightly-more-space-after
         .col-md-offset-2.col-md-8
           img(src='assets/conikuvat-cu.svg', style='width: 100%', alt='Conikuvat.fi')
       .row
@@ -20,12 +21,12 @@ html
             | Uusi Conikuvat.fi-sivusto avataan vuoden 2016 aikana. Siihen asti löydät
             | conikuvaajien kuvat Anikin kuva-arkistosta ja Desugalleriasta:
       .row
-        .col-md-offset-2.col-md-4.col-sm-6.lebensraum
-          a.aniki(href='http://kuvat.aniki.fi', target='_blank', title='Anikin vanha kuva-arkisto')
+        .col-md-offset-2.col-md-4.col-sm-6.ck-space-after
+          a.ck-aniki-logo(href='http://kuvat.aniki.fi', target='_blank', title='Anikin vanha kuva-arkisto')
             img(src='assets/vanhakuvat.png', style='width: 100%', alt='Anikin vanha kuva-arkisto')
-          a.aniki(href='http://uusi.kuvat.aniki.fi', target='_blank', title='Anikin uusi kuva-arkisto')
+          a.ck-aniki-logo(href='http://uusi.kuvat.aniki.fi', target='_blank', title='Anikin uusi kuva-arkisto')
             img(src='assets/uusikuvat.png', style='width: 100%', alt='Anikin uusi kuva-arkisto')
-        .col-md-4.col-sm-6.lebensraum
+        .col-md-4.col-sm-6.ck-space-after
           a(href='https://desucon.fi/galleria', target='_blank', title='Desugalleria')
             img(src='assets/desugalleria_logo.svg', style='width: 100%', alt='Desugalleria')
       .row
