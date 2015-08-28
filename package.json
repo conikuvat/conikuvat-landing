@@ -13,7 +13,8 @@
   "scripts": {
     "start": "gulp",
     "build": "gulp build",
-    "deploy": "NODE_ENV=production gulp build && gulp deploy"
+    "deploy": "NODE_ENV=production gulp build && gulp deploy",
+    "deploy-production": "NODE_ENV=production gulp build && rsync -avz --delete-after public/ conikuvat@y.b2.fi:public_html/portal/"
   },
   "devDependencies": {
     "babel": "^5.6.14",
